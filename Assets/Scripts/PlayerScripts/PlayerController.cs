@@ -10,7 +10,7 @@ namespace Scripts.PlayerScripts
     {
         [SerializeField] private float _speed = 5f;
         [SerializeField] private float _jumpForce = 100f;
-        [SerializeField] private GroundCheckComponent _groundCheck;
+        [SerializeField] private GroundCheck _groundCheck;
         
         private readonly int _animationKeyIsGround = Animator.StringToHash("isGround");
         private readonly int _animationKeyIsRunning = Animator.StringToHash("isRunning");

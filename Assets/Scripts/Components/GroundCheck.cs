@@ -2,7 +2,7 @@
 
 namespace Components
 {
-    public class GroundCheckComponent : MonoBehaviour
+    public class GroundCheck : MonoBehaviour
     {
         [SerializeField] private float _radius = 0.15f;
         [SerializeField] private LayerMask _groundLayer;
